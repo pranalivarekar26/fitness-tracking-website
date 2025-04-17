@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membership Plans - Fitnezz</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .pricing-section {
+        padding: 6rem 2rem;
+        background: #f7f7f7;
+        text-align: center;
+      }
+
+      .pricing-section h1 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+      }
+
+      .plans {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+      }
+
+      .plan {
+        background: #fff;
+        padding: 3rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        flex: 1 1 30rem;
+        max-width: 35rem;
+      }
+
+      .plan h2 {
+        font-size: 2.5rem;
+        color: var(--main-color);
+        margin-bottom: 1rem;
+      }
+
+      .plan .price {
+        font-size: 2.2rem;
+        margin: 1rem 0;
+        color: #333;
+        font-weight: bold;
+      }
+
+      .plan ul {
+        list-style: none;
+        font-size: 1.5rem;
+        color: #666;
+        margin: 2rem 0;
+        padding: 0;
+      }
+
+      .plan ul li {
+        padding: 0.5rem 0;
+      }
+
+      .plan .btn {
+        background: var(--main-color);
+        color: #fff;
+        margin-top: 2rem;
+        display: inline-block;
+      }
+
+      .plan .btn:hover {
+        background: #fff;
+        color: var(--main-color);
+        border: 2px solid var(--main-color);
+      }
+
+      .back-link {
+        margin-top: 4rem;
+        font-size: 1.6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="pricing-section">
+      <h1>Choose Your <span style="color: var(--main-color)">Plan</span></h1>
+
+      <div class="plans">
+        <div class="plan">
+          <h2>Basic</h2>
+          <div class="price">₹999 / month</div>
+          <ul>
+            <li>Access to gym equipment</li>
+            <li>1 fitness assessment</li>
+            <li>Email support</li>
+          </ul>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="plan">
+          <h2>Standard</h2>
+          <div class="price">₹2,499 / month</div>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>3 Personal Training Sessions</li>
+            <li>Group Classes</li>
+          </ul>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="plan">
+          <h2>Premium</h2>
+          <div class="price">₹4,999 / month</div>
+          <ul>
+            <li>All Standard Features</li>
+            <li>Dedicated Trainer</li>
+            <li>Nutrition & Wellness Guide</li>
+          </ul>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+      </div>
+
+      <div class="back-link">
+        <a
+          href="index.html"
+          style="color: var(--main-color); text-decoration: underline"
+          >← Back to Home</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
